@@ -11,11 +11,7 @@ const Filter = ({setFilter, filterBy}) => {
         active={filterBy === 'all'}
         onClick={setFilter.bind(this, "all")}
       >Все</Menu.Item>
-      <Menu.Item
 
-        active={filterBy === 'popular'}
-        onClick={setFilter.bind(this, "popular")}
-      >Популярные</Menu.Item>
       <Menu.Item
 
         active={filterBy === 'price_high'}
@@ -34,10 +30,6 @@ const Filter = ({setFilter, filterBy}) => {
     </Menu>
   )
 }
-
-
-
-
 
 
 export default Filter;
