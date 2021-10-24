@@ -11,7 +11,7 @@ import "../style.css"
 
 function App(props) {
 
-  const {setBooks, isReady} = props
+  const {setBooks, isReady, setFilter} = props
 
   useEffect(() => {
     axios.get("/books.json").then(({data}) => {
@@ -26,7 +26,7 @@ function App(props) {
 
     <Container>
       <MenuComponents />
-      <Filter/>
+      <Filter setFilter={setFilter}/>
       <Card.Group itemsPerRow={4}>
           {!isReady ? "Loading... " : books.map((book, index) => (
            <BookCart key={index}{...book}/>
