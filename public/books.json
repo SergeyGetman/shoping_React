@@ -1,0 +1,154 @@
+[
+  {
+    "id": 0,
+    "title": "The Definitive Guide to MongoDB, 3rd Edition",
+    "author": "Covers MongoDB version 3.0",
+    "image": "https://itbook.store/img/books/9781484211830.png",
+    "price": 710,
+    "rating": 3
+  },
+  {
+    "id": 1,
+    "title": "MongoDB in Action, 2nd Edition",
+    "author": "Covers MongoDB version 3.0",
+    "image": "https://itbook.store/img/books/9781617291609.png",
+    "price": 415,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Designing Across Senses",
+    "author": "Designing Across Senses ",
+    "image": "https://itbook.store/img/books/9781491954249.png",
+    "price": 464,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "Web Scraping with Python, 2nd Edition",
+    "author": "Collecting More Data from the Modern Web",
+    "image": "https://itbook.store/img/books/9781491985571.png",
+    "price": 741,
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "title": "Programming iOS 11",
+    "author": "Dive Deep into Views, View Controllers, and Frameworks",
+    "image": "https://itbook.store/img/books/9781491999226.png",
+    "price": 317,
+    "rating": 1
+  },
+  {
+    "id": 5,
+    "title": "Google Webs",
+    "author": "Гузель Яхина",
+    "image": "http://books.google.com/books/content?id=nggnmAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "price": 254,
+    "rating": 0
+  },
+  {
+    "id": 6,
+    "title": "Web Api",
+    "author": "Джулия Эндерс",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGMPXVOR8eSbkalXTElhoHPLahD38fIDmaGQ&usqp=CAU",
+    "price": 573,
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "title": "iPhuck 10",
+    "author": "Виктор Пелевин",
+    "image": "data:image/jpeg;base64,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",
+    "price": 246,
+    "rating": 0
+  },
+  {
+    "id": 8,
+    "title": "7 навыков высокоэффективных людей: Мощные...",
+    "author": "Стивен Кови",
+    "image": "https://m.media-amazon.com/images/I/51McwfXX7VL.jpg",
+    "price": 347,
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "title": "Девушка во льду",
+    "author": "Роберт Брындза",
+    "image": "https://lh3.googleusercontent.com/proxy/pP9svNMD1_ThfhUdBSTqqy1By0gertAYczvovJjx8TPfwgMpzoMVYZpvFQy0Qv_Sz7UfuvHxN6CQwgrkDctuvXRMXHVCRMACHmOCnfiPFj_D5PwH3A",
+    "price": 882,
+    "rating": 2
+  },
+  {
+    "id": 10,
+    "title": "Магия утра. Как первый час дня определяет ваш успех",
+    "author": "Хэл Элрод",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGMPXVOR8eSbkalXTElhoHPLahD38fIDmaGQ&usqp=CAU",
+    "price": 829,
+    "rating": 1
+  },
+  {
+    "id": 11,
+    "title": "Азиатская европеизация. История Российского государства. Царь Петр...",
+    "author": "Борис Акунин",
+    "image": "https://itbook.store/img/books/9781491954249.png",
+    "price": 389,
+    "rating": 2
+  },
+  {
+    "id": 12,
+    "title": "Ведьмак (сборник)",
+    "author": "Анджей Сапковский",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoKz6D_spDO_pDLXXiZIZex-UTvEtgwbICcw&usqp=CAU",
+    "price": 424,
+    "rating": 3
+  },
+  {
+    "id": 13,
+    "title": "Атлант расправил плечи",
+    "author": "Айн Рэнд",
+    "image": "https://be2.aldebaran.ru/static/bookimages/51/30/21/51302143.bin.dir/51302143.cover_185.jpg",
+    "price": 157,
+    "rating": 2
+  },
+  {
+    "id": 14,
+    "title": "Цена вопроса. Том 1",
+    "author": "Александра Маринина",
+    "image": "https://cv6.litres.ru/sbc/33285466_cover_185-elektronnaya-kniga-aleksandra-marinina-cena-voprosa-tom-1-22638660.jpg",
+    "price": 664,
+    "rating": 0
+  },
+  {
+    "id": 15,
+    "title": "Practical MongoDB",
+    "author": "Гиллиан Флинн",
+    "image": "https://itbook.store/img/books/9781484206485.png",
+    "price": 476,
+    "rating": 4
+  },
+  {
+    "id": 17,
+    "title": "Метро 2035",
+    "author": "Дмитрий Глуховский",
+    "image": "https://itbook.store/img/books/9781484211830.png",
+    "price": 837,
+    "rating": 4
+  },
+  {
+    "id": 18,
+    "title": "Снеговик",
+    "author": "Ю Несбё",
+    "image": "https://iknigi.net/books_files/covers/thumbs_240/pamyat-treniruy-i-sovershenstvuy-105170.jpg",
+    "price": 796,
+    "rating": 5
+  },
+  {
+    "id": 19,
+    "title": "Как тренировать память. Не думайте о памяти – лучше используйте ее на все сто!",
+    "author": "Джонатан Хэнкок",
+    "image": "https://knygy.com.ua/pix/f4/47/ad/f447ad455df4a3b31d49a5f95d0555d6.jpg",
+    "price": 399,
+    "rating": 5
+  }
+]
