@@ -2,7 +2,7 @@ import React from "react";
 import {Menu} from 'semantic-ui-react'
 
 
- function MenuComponents () {
+ function MenuComponents ({totalPrice, count}) {
   return (
     <div>
       <Menu>
@@ -22,13 +22,13 @@ import {Menu} from 'semantic-ui-react'
           <Menu.Item
             name='signup'
           >
-            ИТОГО : 0 грн
+            ИТОГО : {totalPrice} грн
           </Menu.Item>
 
           <Menu.Item
             name='help'
           >
-            Корзина: (<b>0</b>)
+            Корзина: (<b>{count}</b>)
           </Menu.Item>
         </Menu.Menu>
       </Menu>

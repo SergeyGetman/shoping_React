@@ -4,7 +4,7 @@ import {bindActionCreators} from "redux";
 import * as booksActions from "../actions/books";
 import App from "../components/App";
 import orderBy from "lodash/orderBy"
-import {setSearchQuery} from "../actions/filter";
+
 
 const sortBy = (books, filterBy) => {
 
