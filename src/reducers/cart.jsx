@@ -1,36 +1,11 @@
 const initialState = {
-  items : [
-    {
-      "id": 0,
-      "title": "The Definitive Guide to MongoDB, 3rd Edition",
-      "author": "Covers MongoDB version 3.0",
-      "image": "https://itbook.store/img/books/9781484211830.png",
-      "price": 710,
-      "rating": 3
-    },
-    {
-      "id": 0,
-      "title": "The Definitive Guide to MongoDB, 3rd Edition",
-      "author": "Covers MongoDB version 3.0",
-      "image": "https://itbook.store/img/books/9781484211830.png",
-      "price": 710,
-      "rating": 3
-    },
-    {
-      "id": 0,
-      "title": "The Definitive Guide to MongoDB, 3rd Edition",
-      "author": "Covers MongoDB version 3.0",
-      "image": "https://itbook.store/img/books/9781484211830.png",
-      "price": 710,
-      "rating": 3
-    },
-  ]
+  items : []
 }
 
 export default (state = initialState, action) => {
 
   switch (action.type){
-    case  "ADD_BOOK" :
+    case  "ADD_TO_CART" :
       return {
         ...state,
         items: [
@@ -39,7 +14,7 @@ export default (state = initialState, action) => {
         ]
 
       };
-    case "REMOVE_BOOK" :
+    case "REMOVE_FROM_CART" :
       return {
         ...state,
        items: state.items.filter(elem => elem.id != action.payload)
