@@ -4,14 +4,11 @@ import {Card} from "semantic-ui-react";
 import axios from "axios";
 import Filter from  "../containers/Filter"
 import Menu from  "../containers/Menu"
-
 import BookCart from "../containers/BookCart";
 import "../style.css"
 
 
-
 function App(props) {
-
   const {setBooks, isReady} = props
 
   useEffect(() => {
@@ -22,9 +19,7 @@ function App(props) {
 
 
   const {books} = props;
-
   return (
-
     <Container>
       <Menu />
       <Filter />

@@ -25,12 +25,16 @@ const filterBooks = (books, searchQuery) =>
       o.author.toLowerCase().indexOf(searchQuery.toLowerCase()) >= 0,
   );
 
+
+
+
 const searchBooks = (books, filterBy, searchQuery) => {
   return sortBy(filterBooks(books, searchQuery), filterBy);
 }
 
 
 const mapStateToProps = ({books, filter}) => ({
+
   books: books.items && searchBooks(books.items, filter.filterBy, filter.searchQuery),
   isReady: books.isReady
 })
